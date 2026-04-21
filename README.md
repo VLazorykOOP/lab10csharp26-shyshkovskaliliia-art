@@ -1,1 +1,14 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/p-atAJ4d)
+# Лабораторна робота №10: Події в С#
+
+## Реалізація Завдання 1
+- [cite_start]**Проект**: "Життя факультету"[cite: 274].
+- **Файли**: `Models/Faculty.cs`, `Models/FacultyEvents.cs`.
+- [cite_start]**Опис**: Реалізовано подію `DayOfFaculty` на основі делегатів[cite: 11]. [cite_start]До події підключено кілька обробників (широкомовність)[cite: 15, 17].
+
+## Реалізація Завдання 2
+- **Файли**: `Tasks/Lab10T2.cs`.
+- **Додано**:
+  - [cite_start]**Асинхронність**: Використано `async/await` для моделювання подій у реальному часі[cite: 285].
+  - [cite_start]**Пріоритети**: Події мають різні рівні важливості (Priority)[cite: 285].
+  - [cite_start]**Статистика**: Програма підраховує кількість проведених заходів[cite: 285].
+  - [cite_start]**Запуск**: Виконано через `Lab10T2.Run()` згідно з вимогами[cite: 270].
